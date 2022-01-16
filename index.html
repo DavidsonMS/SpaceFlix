@@ -5,20 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/main.css">
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+<!--Owl CSS https://owlcarousel2.github.io/OwlCarousel2/-->
+<link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+<link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
     <title>SpaceFlix</title>
 </head>
 <body>
     <header>
         <div class="container">
-            <h2 class="logo">SpaceFlix</h2>
+            <h2 class="logo">MOZÃOFLIX</h2>
             <nav>
                 <a href="#">Inicio</a>
                 <a href="#">Filmes</a>
                 <a href="#">Series</a>
                 <a href="#">Animações</a>
-                <a href="#">Documentários</a>
+                <a href="#">Documentários</a> 
             </nav>
         </div>
     </header>
+    <main>
+        <div class="filme-principal">
+            <div class="container" >
+                <h3 class="titulo">PERDIDOS NO ESPAÇO</h3>
+                <p class="descricao">Após um pouso forçado em um planeta desconhecido, a família Robinson tenta sobreviver aos perigos que encontra neste novo mundo.</p>
+                <div class="botoes">
+
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        ASSITIR AGORA
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </main>
+<div class="carrosel-filmes">
+    <h3>FILMES</h3>
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+            <img class="box-filme" src="img/Carrossel/o-mar-da-traquilidade-lua.jpg" alt="">
+        </div>
+        <div class="item">
+            <img class="box-filme" src="img/Carrossel/outra-vida.jpg" alt="">
+        </div>
+        <div class="item">
+            <img class="box-filme" src="img/Carrossel/star-trek-discovery-nave.jpg" alt="">
+        </div>
+        <div class="item">
+            <img class="box-filme" src="img/Carrossel/final-space.jpg" alt="">
+        </div>
+        <div class="item">
+            <img class="box-filme" src="img/Carrossel/terra-a-deriva.jpg" alt="">
+        </div>
+        <div class="item">
+            <img class="box-filme" src="img/Carrossel/voltrom-defensor-lendario.jpg" alt="">
+        </div>
+        
+    </div>
+</div>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" ></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/main.js"></script>
+
 </body>
 </html>
